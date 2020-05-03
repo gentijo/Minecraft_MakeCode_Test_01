@@ -121,7 +121,7 @@ namespace writer {
     });
     
     //% block
-    export function writeString(input: string = "Hello world! :)"): void {
+    export function writeString2(input: string = "Hello world! :)"): void {
         let x = 0, y = 0;
 
         function moveAgent(direction: SixDirection) {
