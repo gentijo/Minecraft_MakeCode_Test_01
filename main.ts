@@ -109,6 +109,13 @@ namespace writer {
     ];
 
     const test = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789~`!@#$%^&*()-_+=|\\{}[]:;\"'<>,.?/§≈±≤≥°";
+    
+    player.onChat("Chicken2", function () {
+    for (let index = 0; index < 20; index++) {
+        mobs.spawn(CHICKEN, pos(0, 10, 0))
+        }
+    })
+
 
     //% block
     export function writeString(input: string = "Hello world! :)"): void {
