@@ -110,6 +110,10 @@ namespace writer {
 
     const test = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789~`!@#$%^&*()-_+=|\\{}[]:;\"'<>,.?/§≈±≤≥°";
 
+    player.onChat("Talk", function () {
+    player.say(":)")
+    })
+
     player.onChat("run", function () {
         writer.writeString("Test")
     })
