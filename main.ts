@@ -111,7 +111,7 @@ namespace writer {
     const test = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789~`!@#$%^&*()-_+=|\\{}[]:;\"'<>,.?/§≈±≤≥°";
 
     //% block
-    export function writeString2(input: string = "Hello world! :)"): void {
+    export function writeString(input: string = "Hello world! :)"): void {
         let x = 0, y = 0;
 
         function moveAgent(direction: SixDirection) {
