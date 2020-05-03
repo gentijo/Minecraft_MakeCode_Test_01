@@ -110,16 +110,6 @@ namespace writer {
 
     const test = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789~`!@#$%^&*()-_+=|\\{}[]:;\"'<>,.?/§≈±≤≥°";
 
-    player.onChat("Talk", function () {
-    player.say(":)")
-    });
-
-    player.onChat("run", function () {
-     //   writer.writeString("Test")
-      player.say(":)")
-
-    });
-    
     //% block
     export function writeString2(input: string = "Hello world! :)"): void {
         let x = 0, y = 0;
