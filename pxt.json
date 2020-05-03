@@ -1,6 +1,6 @@
 {
-    "name": "mx-code-writestring",
-    "version": "0.0.1",
+    "name": "johng-test-writestring",
+    "version": "0.0.2",
     "description": "",
     "dependencies": {
         "core": "*",
