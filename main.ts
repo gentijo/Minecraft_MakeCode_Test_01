@@ -112,13 +112,13 @@ namespace writer {
 
     player.onChat("Talk", function () {
     player.say(":)")
-    })
+    });
 
     player.onChat("run", function () {
      //   writer.writeString("Test")
       player.say(":)")
 
-    })
+    });
     
     //% block
     export function writeString(input: string = "Hello world! :)"): void {
