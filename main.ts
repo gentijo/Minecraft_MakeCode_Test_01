@@ -115,7 +115,9 @@ namespace writer {
     })
 
     player.onChat("run", function () {
-        writer.writeString("Test")
+     //   writer.writeString("Test")
+      player.say(":)")
+
     })
     
     //% block
